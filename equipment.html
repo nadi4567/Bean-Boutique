@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bowlby+One&family=Oswald:wght@200..700&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!--main section-->
+    <div class="homeContainer">
+        
+        <header class="navBar d-flex  align-items-center justify-content-between">
+            <div class="navLeft ms-3">
+                <p>Beans Boutique</p>
+                <img class="beanLogo" src="./images/bean.svg" alt="benalogo">
+            </div>
+            <svg id="navMenu" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-list menu_list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+            </svg>
+        
+            <nav id="navItem" class="nav col-12 col-md-auto  navCenter">
+                <a href="./index.html" class="mx-3 borderMove">Home</a>
+                <a href="./selection.html" class="mx-3  borderMove">Coffee Selection</a>
+                <a href="./equipment.html" class="mx-3 selectionnav ">Equipment</a>
+                <a href="./event.html" class="mx-3 borderMove ">Events and Workshop</a>
+                <a href="./special.html" class="mx-3 borderMove">Special Offers</a>
+                <a href="./addCart.html" class="navRight">
+                    <div id="itemCount">0</div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-basket2-fill" viewBox="0 0 16 16">
+                        <path d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1"/>
+                      </svg>
+                </a>
+            </nav>
+        </header>
+    </div>
+    <section class="selectionContainer">
+      
+         <!--selection section-->
+       <div class="selectionLeft">
+          <h2>Brewing Equipments</h2>
+          <p>Discover the perfect tools to elevate your coffee experience. 
+            From espresso machines to French presses, find the equipment that suits your brewing style.</p>
+       </div>
+       <div class="selectionRight">
+          <img src="./images/equip.jpg" alt="brew">
+       </div>
+    </section>
+
+    <!--blends and origin-->
+    <section class="blendOrigin">
+      
+       <h2 class="blendTitle">Explore Brewing Equipments</h2>
+        <div class="machineCardsContainer">
+        <div class="machineCardclick machineCard">
+            <div class="blendType">Expresson Machine</div>
+            <img src="./images/expresso.jpeg" class="machineImg" alt="expresso">
+           <div class="machineDetail">
+            <p>A high-quality espresso machine designed
+                 for coffee enthusiasts. Create café-style espresso,
+                 lattes, and cappuccinos with ease.</p>
+            <p><span>Usage Tips :</span> Preheat the machine, 
+                use finely ground coffee, and tamp evenly for the best espresso shots.</p>
+            </div>
+            <div class="priceBtn d-flex align-items-center ps-3">
+                <p class="pt-3 price">100$</p>
+                <button class="equipBtn py-1">Add to cart1</button>
+            </div>
+        </div>
+        <!--card-->
+        <div class="machineCardclick machineCard">
+            <div class="blendType">French Press</div>
+            <img src="./images/french.jpg"  class="machineImg" alt="french">
+           <div class="machineDetail">
+            <p>A classic French press with a stainless steel frame and glass body.
+                 Ideal for making rich, full-bodied coffee.</p>
+            <p><span>Usage Tips :</span> Use coarse-ground coffee and steep for
+                 4 minutes
+                 before pressing the plunger slowly</p>
+            </div>
+            <div class="priceBtn d-flex align-items-center ps-3">
+                <p class="pt-3 price">230$</p>
+                <button class="equipBtn py-1" >Add to cart1</button>
+            </div>
+
+        </div>
+        
+        <!--card-->
+        <div class="machineCardclick machineCard">
+            <div class="blendType">Chemex Brewer</div>
+            <img src="./images/chemax.webp"  class="machineImg" alt="machine">
+           <div class="machineDetail">
+            <p>A stylish pour-over coffee maker with an elegant glass 
+                design, producing smooth and clean-tasting coffee.</p>
+            <p><span>Usage Tips :</span>Use Chemex-specific or thick paper filters 
+                and pour hot water in slow, circular motions for an even extraction.</p>
+            </div>
+            <div class="priceBtn d-flex align-items-center ps-3">
+                <p class="pt-3 price">300$</p>
+                <button class="equipBtn py-1" >Add to cart1</button>
+            </div>
+        </div>
+
+     </div>
+    
+      
+        <!-- <p class="singleTitle">single-origin</p> -->
+        <div class="machineCardsContainer">
+            <div class="machineCardclick machineCard">
+                <div class="blendType">Aeropress</div>
+                <img src="./images/aeropress.webp" class="machineImg" alt="aeropress">
+               <div class="machineDetail">
+                <p><span>Description :</span>A compact and versatile coffee
+                     maker that uses air pressure to brew rich, smooth coffee in minutes.</p>
+                <p><span>Usage Tips :</span>Use fine to medium-ground coffee, 
+                    stir for 10 seconds, then press gently for a balanced flavor.</p>
+                </div>
+                <div class="priceBtn d-flex align-items-center ps-3">
+                    <p class="pt-3 price">100$</p>
+                    <button class="equipBtn py-1" >Add to cart1</button>
+                </div>
+            </div>
+            <!--card-->
+            <div class="machineCardclick machineCard">
+                <div class="blendType"> Moka Pot</div>
+                <img src="./images/mokapot.webp" class="machineImg" alt="mokapot">
+               <div class="machineDetail">
+                <p><span>Description :</span>A traditional stovetop
+                     espresso maker that brews bold, strong coffee with a rich aroma</p>
+                <p><span>Usage Tips :</span> Fill the bottom chamber with water, add finely 
+                    ground coffee to the filter, and heat on low until coffee brews.</p>
+                </div>
+                <div class="priceBtn d-flex align-items-center ps-3">
+                    <p class="pt-3 price">280$</p>
+                    <button class="equipBtn py-1" >Add to cart1</button>
+                </div>
+            </div>
+            
+            <!--card-->
+            <div class="machineCardclick machineCard">
+                <div class="blendType">Cold Brew Maker</div>
+                <img src="./images/coldbrew.jpg" class="machineImg" alt="coldbrew">
+               <div class="machineDetail">
+                <p><span>Description :</span>A simple brewing system for smooth,
+                    less acidic coffee, steeped in cold water for an extended time.</p>
+                <p><span>Usage Tips :</span> Use coarse-ground coffee, steep in cold 
+                    water for 12–24 hours, then strain and serve over ice.</p>
+                </div>
+                <div class="priceBtn d-flex align-items-center ps-3">
+                    <p class="pt-3 price">321$</p>
+                    <button class="equipBtn py-1" >Add to cart1</button>
+                </div>
+            </div>
+         </div>
+        <!--third -->
+        <div class="machineCardsContainer">
+            <div class="machineCardclick machineCard">
+                <div class="blendType">Siphon Coffee Maker</div>
+                <img src="./images/siphon.jfif" class="machineImg" alt="siphon">
+               <div class="machineDetail">
+                <p><span>Description :</span>A unique vacuum-based coffee maker that
+                     uses heat and pressure to brew flavorful, aromatic coffee.</p>
+                <p><span>Usage Tips :</span> Use medium-ground coffee, heat water in the lower 
+                    chamber, and allow the vacuum effect to extract the coffee.</p>
+                </div>
+                <div class="priceBtn d-flex align-items-center ps-3">
+                    <p class="pt-3 price">140$</p>
+                    <button class="equipBtn py-1" >Add to cart1</button>
+                </div>
+            </div>
+            <!--card-->
+            <div class="machineCardclick machineCard">
+                <div class="blendType" >Percolator</div>
+                <img src="./images/precolator.jpg" class="machineImg" alt="precolator">
+               <div class="machineDetail">
+                <p><span>Description :</span>A classic coffee brewer that continuously
+                     cycles hot water through coffee grounds for a robust flavor.</p>
+                <p><span>Usage Tips:</span>Use medium-coarse coffee grounds 
+                    and brew on low heat to avoid over-extraction and bitterness.</p>
+                </div>
+                <div class="priceBtn d-flex align-items-center ps-3">
+                    <p class="pt-3 price">230$</p>
+                    <button class="equipBtn py-1" >Add to cart1</button>
+                </div>
+            </div>
+            
+            <!--card-->
+            <div class="machineCardclick machineCard">
+                <div class="blendType">Turkish Coffee Pot </div>
+                <img src="./images/turkish.jpg" class="machineImg" alt="turkish">
+               <div class="machineDetail">
+                <p><span>Description :</span>A small copper or brass pot (cezve) used
+                     to brew strong, unfiltered coffee with a rich foam.</p>
+                <p><span>Usage Tips :</span>Use extra-fine ground coffee, simmer with water 
+                    and sugar (optional), and pour gently to preserve the foam.</p>
+                </div>
+                <div class="priceBtn d-flex align-items-center ps-3">
+                    <p class="pt-3 price">200$</p>
+                    <button class="equipBtn py-1">Add to cart1</button>
+                </div>
+            </div>
+         </div>
+    </section>
+    <!--footer section-->
+    <div class="footerContainer">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3  border-top">
+          <p class="col-md-4 mb-0 text-light">© 2024 Company, Inc</p>
+      
+          
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">About</a></li>
+          </ul>
+        </footer>
+      </div>
+
+      <script src="./script.js" ></script>
+    </body>
+</html>

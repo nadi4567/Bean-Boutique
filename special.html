@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bowlby+One&family=Oswald:wght@200..700&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="./style.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="./style.css" rel="stylesheet">
+    <title>special offers</title>
+</head>
+<body>
+    <div class="homeContainer">
+        <header class="navBar d-flex  align-items-center justify-content-between">
+            <div class="navLeft ms-3">
+                <p>Beans Boutique</p>
+                <img class="beanLogo" src="./images/bean.svg" alt="beanlogo">
+            </div>
+            <svg id="navMenu" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-list menu_list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+            </svg>
+        
+            <nav id="navItem" class="nav col-12 col-md-auto  navCenter">
+                <a href="./index.html" class="mx-3 borderMove">Home</a>
+                <a href="./selection.html" class="mx-3 borderMove">Coffee Selection</a>
+                <a href="./equipment.html" class="mx-3 borderMove">Equipment</a>
+                <a href="./event.html" class="mx-3 borderMove">Events and Workshop</a>
+                <a href="./special.html" class="mx-3  selectionnav">Special Offers</a>
+                <a href="./addCart.html" class="navRight">
+                    <div id="itemCount">0</div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-basket2-fill" viewBox="0 0 16 16">
+                        <path d="M5.929 1.757a.5.5 0 1 0-.858-.514L2.217 6H.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h.623l1.844 6.456A.75.75 0 0 0 3.69 15h8.622a.75.75 0 0 0 .722-.544L14.877 8h.623a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1.717L10.93 1.243a.5.5 0 1 0-.858.514L12.617 6H3.383zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1"/>
+                      </svg>
+                </a>
+            </nav>
+        </header>
+        <section class="specialContainer"><!--special offer main section-->
+        
+            <h2 class="specialTitle">Special Offers & Subscriptions</h2>
+            <p>Indulge in exclusive deals and elevate your coffee journey.</p>
+            <a class="exploreLink" href="#explorePlan">Explore plans</a>
+        </section>
+
+    </div>
+    
+    <!--exclusive offers-->
+    <div class="specialoffersContainer">
+
+        <div class="specialofferCards">
+            <img  src="./images/birthdayPromo.png" alt="cupon">
+            <div class="saleTxtContainer">
+                <p>Birthday promotion</p>
+                <p>Save 10% on purchases on youour birthday and get a free gift.</p>
+            </div>
+           
+        </div>
+        <div class="specialofferCards">
+            <img  src="./images/coupon_1831655.png" alt="cupon">
+            <div class="saleTxtContainer">
+                <p>Seasonal sale</p>
+                <p>Save 30% on selected blends.</p>
+            </div>
+        </div>
+        <div class="specialofferCards">
+            <img  src="./images/buyMore.png" alt="cupon">
+            <div class="saleTxtContainer">
+                <p>Buy more, save more</p>
+                <p>Buy more than 3 machines and get 10% off, or buy 5+ and save 20%.</p>
+            </div>
+           
+        </div>
+        <div class="specialofferCards">
+            <img  src="./images/gift.png" alt="cupon">
+            <div class="saleTxtContainer">
+                <p>Welcome Gift</p>
+                <p> New customers get a free coffee sampler pack!</p>
+            </div>
+           
+        </div>
+        <div class="specialofferCards">
+            
+            <img  src="./images/studentGift.png" alt="cupon">
+            <div class="saleTxtContainer">
+                <p>University Student Discount</p>
+                <p>Students gett 12% off on coffee beans!</p>
+            </div>
+        </div>
+    </div>
+    <div class="subscribeSection" id="explorePlan"><!--offers-->
+        <div class="subcribeTle">Suscription Plans ☕</div>
+        <div class="subcribeContainer">
+            <div class="subcribeCards">
+                <div class="subCardupSection subCardupSection1">
+                    <p>Basic Plan</p>
+                </div>
+                <div class="subCardDownSection">
+                    <div class="promotionDetail">
+                        <p>$15/month</p>
+                        <p>1 Coffee Bag</p>
+                        <p>10% Discount </p>
+                        <p>Monthly Delivery</p>
+                     </div>
+                     <button class="subscribeBtn">Subscribe now</button>
+                </div>
+            </div>
+            <div class="subcribeCards">
+                <div class="subCardupSection subCardupSection2">
+                    <p>Standard Plan</p>
+                </div>
+                <div class="subCardDownSection">
+                    <div class="promotionDetail">
+                       <p>$30/month</p>
+                       <p>1 Tote Bags</p>
+                       <p>15% Discount </p>
+                       <p>Bi-weekly Delivery</p>
+                       <p>Free mug</p>
+                    </div>
+                    <button class="subscribeBtn">Subscribe now</button>
+                </div>
+
+            </div>
+            <div class="subcribeCards">
+                <div class="subCardupSection subCardupSection3">
+                    <p>Pro Plan</p>
+                </div>
+                <div class="subCardDownSection">
+                    <div class="promotionDetail">
+                        <p>$50/month</p>
+                        <p>20% Discount </p>
+                        <p>Weekly Delivery</p>
+                        <p>Free Gifts & Early access to limited items</p>
+                     </div>
+                     <button class="subscribeBtn">Subscribe now</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--footer section-->
+   
+    <div class="footerContainer">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3  border-top">
+          <p class="col-md-4 mb-0 text-light">© 2024 Company, Inc</p>
+      
+          
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-light">About</a></li>
+          </ul>
+        </footer>
+     </div>
+    <script src="./script.js"></script>
+</body>
+</html>
