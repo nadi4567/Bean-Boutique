@@ -22,3 +22,6 @@ The project focuses on clean UI, modern styling, and smooth user experience.
 
 
 - Open index.html in your browser.
+
+- See demo at https://nadi4567.github.io/Bean-Boutique/
+  
